@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="A Cap table Project" />
+    <meta name="author" content="Pratik Jaiswal" />
+    <meta name="keywords" content="Cap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Documents</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <script src="../js/upload.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Cap Table Platform</h1>
+      </header>
+      <div class="content">
+        <div class="content__card">
+          <div class="content__header">
+            <h2>Let’s Create your Cap Table!</h2>
+            <h4 class="content__card__subtitle">
+              Stuck on what to do? You can always come back here to check on
+              what else you’ll need to add to complete your cap table.
+            </h4>
+          </div>
+          <div class="back_home" onclick="goBack()">
+            <img class="back_home_image" src="../assets/Path.png" alt="back" />
+            <h6 class="back_home_heading">Upload Investment Documents</h6>
+          </div>
+
+          <!--Item 1-->
+          <h6 class="divider"></h6>
+          <div class="list">
+            <div class="round">
+              <input
+                type="checkbox"
+                id="checkbox_founderShare"
+                name="checkbox"
+                value="founderShare"
+                class="list__checkbox"
+              />
+              <label for="checkbox_founderShare"></label>
+            </div>
+            <div class="list__content">
+              <h3 class="list__header">Add Founder Shares</h3>
+              <p class="list__definition">Details on what founder shares are</p>
+            </div>
+          </div>
+          <h6 class="divider"></h6>
+
+          <!--Item 2-->
+          <div class="list">
+            <div class="round">
+              <input
+                type="checkbox"
+                id="checkbox_addInvestment"
+                name="checkbox"
+                value="addInvestment"
+                class="list__checkbox"
+              />
+              <label for="checkbox_addInvestment"></label>
+            </div>
+            <div class="list__content">
+              <h3 class="list__header">Add Investments</h3>
+              <p class="list__definition">
+                What are Investments, when you would have/add them
+              </p>
+            </div>
+          </div>
+          <h6 class="divider"></h6>
+
+          <!--Item 3-->
+          <div class="list">
+            <div class="round">
+              <input
+                type="checkbox"
+                id="checkbox_addEquity"
+                name="checkbox"
+                value="addEquity"
+                class="list__checkbox"
+              />
+              <label for="checkbox_addEquity"></label>
+            </div>
+            <div class="list__content">
+              <h3 class="list__header">Add Equity Plans</h3>
+              <p class="list__definition">Equity plan description</p>
+            </div>
+          </div>
+          <h6 class="divider"></h6>
+
+          <!--Item 4-->
+          <div class="list">
+            <div class="round">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox_addEmployee"
+                value="addEmployee"
+                class="list__checkbox"
+              />
+              <label for="checkbox_addEmployee"></label>
+            </div>
+            <div class="list__content">
+              <h3 class="list__header">Add Employee Grants</h3>
+              <p class="list__definition">Employee grant description</p>
+            </div>
+          </div>
+          <h6 class="divider"></h6>
+
+          <!--Item 5-->
+          <div class="list">
+            <div class="round">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox_reviewCapTable"
+                value="reviewCapTable"
+                class="list__checkbox"
+              />
+              <label for="checkbox_reviewCapTable"></label>
+            </div>
+            <div class="list__content">
+              <h3 class="list__header">Review Cap Table</h3>
+              <p class="list__definition">
+                All done? Invite your lawyer to review your cap table
+              </p>
+            </div>
+          </div>
+          <h6 class="divider"></h6>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

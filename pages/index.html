@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="A Cap table Project" />
+    <meta name="author" content="Pratik Jaiswal" />
+    <meta name="keywords" content="Cap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lets create Cap Table</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <script src="../js/index.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Cap Table Platform</h1>
+      </header>
+      <div class="content">
+        <div class="content__card">
+          <div class="content__header">
+            <h2>Let’s Create your Cap Table!</h2>
+            <h4 class="content__card__subtitle">
+              Select how you would like to create your cap table.
+            </h4>
+          </div>
+          <div
+            class="card"
+            id="upload_spreadsheet"
+            onclick="upload('spreadsheet')"
+          >
+            <img
+              class="card__image"
+              alt="excel"
+              src="../assets/noun_excel.png"
+            />
+            <div class="card__content">
+              <h3 class="card__header">Upload Spreadsheet</h3>
+              <p class="card__definition">
+                Download a cap table spreadsheet template, fill it out, upload
+                the completed template.
+              </p>
+            </div>
+          </div>
+          <div class="seperator">
+            <h6 class="seperator__text">Or</h6>
+          </div>
+          <div
+            class="card"
+            id="upload_investment_doc"
+            onclick="upload('investment_doc')"
+          >
+            <img
+              class="card__image__papers"
+              alt="papers"
+              src="../assets/noun_papers.png"
+            />
+            <div class="card__content">
+              <h3 class="card__header">Upload Investment Documents</h3>
+              <p class="card__definition">
+                Download a cap table spreadsheet template, fill it out, upload
+                the completed template.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
